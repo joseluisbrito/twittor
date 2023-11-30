@@ -1,12 +1,12 @@
 // imports
 importScripts('js/sw-utils.js');
 
-const STATIC_CACHE = 'static-v4';
-const DYNAMIC_CACHE = 'dynamic-v2';
+const STATIC_CACHE = 'static-v5';
+const DYNAMIC_CACHE = 'dynamic-v3';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
-    // '/',
+
     'index.html',
     'css/style.css',
     'img/favicon.ico',
@@ -21,8 +21,7 @@ const APP_SHELL = [
 
 // reecursos necesarios pero que no se van a modificar jamas:
 const APP_SHELL_INMUTABLE = [
-    'https://fonts.googleapis.com/css?family=Quicksand:300,400',
-    'https://fonts.googleapis.com/css?family=Lato:400,300',
+
     'css/all.css',
     'css/animate.css',
     'js/libs/jquery.js'
